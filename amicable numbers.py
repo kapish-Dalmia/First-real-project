@@ -24,3 +24,5 @@ if sum1 == b and sum2 == a:
     print('The given pair of numbers are amicable.')
 else:
     print('The given two pairs of numbers are not amicable.')
+
+print('So this is it a working code for amicable number.')
