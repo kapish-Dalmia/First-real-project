@@ -73,5 +73,8 @@ git commands:
 27. git stash clear --> deletes the changes in the backend.
 28. git rebase -i (hash) --> allows us to stack commits.
 29. git pull origin main --> (main - branch), retrive and integrate the changes form remote to local repo.
+30. git reset --hard origin/main --> (origin -repo , main - branch of remote repo not local) , resets current branch to match origin main.
+31. git cheery-pick (hash) --> to add a commit made on a branch to some other branch.
+32. git rebase (name) --> to merge the two branches but in a linear way. SHOULD NEVER USE ON PUBLIC REOPOS.
 
 --------------------------------------------------------------------------------------------------------------------
