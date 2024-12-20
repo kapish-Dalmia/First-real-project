@@ -72,5 +72,6 @@ git commands:
 26. git stash pop --> to get back the changes in the backstage
 27. git stash clear --> deletes the changes in the backend.
 28. git rebase -i (hash) --> allows us to stack commits.
+29. git pull origin main --> (main - branch), retrive and integrate the changes form remote to local repo.
 
 --------------------------------------------------------------------------------------------------------------------
