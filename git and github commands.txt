@@ -70,5 +70,6 @@ git commands:
 24. git remote rm origin --> to delete an origin .
 25. git stash --> to store the changes we just made in the backstage when we dont want to either delete or add them .
 26. git stash pop --> to get back the changes in the backstage
+27. git stash clear --> deletes the changes in the backend.
 
 --------------------------------------------------------------------------------------------------------------------
