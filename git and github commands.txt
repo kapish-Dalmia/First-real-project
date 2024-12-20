@@ -1,0 +1,65 @@
+git - its a version control sysytem
+github - web application helping developers to store and manage their code using 
+local ---> personal computer system ,  remote ----> github online
+stagged ---> file is ready to be commited
+modified - change
+untracked - untracked files that git doesn't know about
+unmodifeid - unchanged
+
+-----------------------------------------------------------------------------------------------------------------------
+
+settting up git :
+vscode , windows(git bash)
+
+git --version     ---->   checks for version /presence of git
+
+--------------------------------------------------------------------------------------------------------------------
+
+configuring git (adding git acount localy): in git bash in windows
+
+git config --global user.name "my name here"       ---->  sets and connects your github account user name locally 
+git config --global user.email "your email here"   ---->  sets and connects your github account email locally
+git config --list                                  ---->  shows deltails about your account i.e. which account git is connected to on our system.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+general commands:
+
+1. cd ---> change directory
+2. clear ---> clears the terminal
+3. pwd ---> shows your present directory
+4. cd . --> goes back to the previous directory
+5. ls ---> list all file in the dierctory you are currently present in.
+6. ls -Force ---> listss even hidden files 
+7. mkdir ---> to make a new folder
+
+---------------------------------------------------------------------------------------------------------------------
+
+git commands:
+
+1. git clone (link of your repo here) --> clones your repo locally
+2. git status                         --> shows status of your code
+3. git add () --> adds a new and unchanged file in your working directory to te git staging area.
+4. git add . ---> adds all the new and unchanged file in your working directory to te git staging area.
+5. git commit -m "your comment here"  --> it is the record of your changes
+6. git push origin main ---> pushes local repo to remote repo (origin - that we set , main - branch)
+7. git init --> helps insert git into local repos that are not currently tracked by git
+8. git remote add origin (link)  --> before pushing a local repo we need to specify the repo i.e. in which repo we want the change to go.
+9. git remote -v ---> to verify in which repo we are currently in 
+10. git branch ---> to check on which branch we are on
+11. git branch -M (name) --> to rename a branch
+12. git push -u origin main ---> we add -u so that we dont have to repetedely use origin main.
+13. git checkout (name)  --> to navigate between different branches
+14. git checkout -b (name)  --> to make a new branch
+15. git checkout -d (name)  --> to delete a branch
+16. git diff (name) --> to see diffrences between to files, branches, commits and more
+17. git merge (name) --> to merge 2 branches
+18. git reset (file name) --> to reset a stagged change in a file
+19. git reset --> to reset all files
+20. git reset HEAD~1 ---> to reset one commit
+21. git reset (commit hash) ---> to reset before multiple commits.
+22. git reset --hard (commit hash) --> to even reeset the previous code in vscode
+23. git log --> to see all the commits in the terminal
+24. git remote rm origin --> to delete an origin .
+
+--------------------------------------------------------------------------------------------------------------------
