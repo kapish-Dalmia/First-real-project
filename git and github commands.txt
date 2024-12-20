@@ -32,6 +32,13 @@ general commands:
 5. ls ---> list all file in the dierctory you are currently present in.
 6. ls -Force ---> listss even hidden files 
 7. mkdir ---> to make a new folder
+8. ls .(file name)  --> to list the objects in any file
+9. echo "" > (filename.extension) ---> to create a file
+10. rm (file name) / rm (file name) ---> to remove or delete a file
+11. code filename.extension -->  to open any file and edit it .
+12. notepad filename.extension --> to open a file in notepad .
+13. echo "content" > filename.extension --> to make small changes.
+14. echo "additional content" >> filename.extension --> to append new changs without overwriting
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -61,5 +68,7 @@ git commands:
 22. git reset --hard (commit hash) --> to even reeset the previous code in vscode
 23. git log --> to see all the commits in the terminal
 24. git remote rm origin --> to delete an origin .
+25. git stash --> to store the changes we just made in the backstage when we dont want to either delete or add them .
+26. git stash pop --> to get back the changes in the backstage
 
 --------------------------------------------------------------------------------------------------------------------
